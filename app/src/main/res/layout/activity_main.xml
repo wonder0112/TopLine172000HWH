@@ -39,19 +39,28 @@
         <RadioButton
             android:id="@+id/rb_home"
             android:text="首页"
+            android:checked="true"
+            android:drawableTop="@drawable/rb_home_selector"
+            android:textColor="@drawable/rb_text_selector"
             style="@style/style_RadioButton"
             />
         <RadioButton
             android:id="@+id/rb_count"
             android:text="统计"
+            android:drawableTop="@drawable/rb_count_selector"
+            android:textColor="@drawable/rb_text_selector"
             style="@style/style_RadioButton"/>
         <RadioButton
             android:id="@+id/rb_video"
-            android:text="视屏"
+            android:text="视频"
+            android:drawableTop="@drawable/rb_video_selector"
+            android:textColor="@drawable/rb_text_selector"
             style="@style/style_RadioButton"/>
         <RadioButton
             android:id="@+id/rb_me"
             android:text="我"
+            android:drawableTop="@drawable/rb_me_selector"
+            android:textColor="@drawable/rb_text_selector"
             style="@style/style_RadioButton"/>
     </RadioGroup>
 
